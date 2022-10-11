@@ -5,7 +5,7 @@ from kivy.app import App
 
 class MainApp(MDApp):
     def build(self):
-        return MDLabel(text="Hello, World", halign="center")
+        return MDLabel(text="Hello, App!", halign="center")
 
 
 MainApp().run()
